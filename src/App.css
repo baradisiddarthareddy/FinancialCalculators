@@ -1,0 +1,34 @@
+/* src/App.css */
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.calculator-select {
+  padding: 5px;
+  border: none;
+  background-color: #555;
+  color: white;
+}
+

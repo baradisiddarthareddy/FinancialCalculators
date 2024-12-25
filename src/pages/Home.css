@@ -1,0 +1,70 @@
+/* src/pages/Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff6347, #3a8dff, #32cd32);
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
+    color: #fff;
+    text-align: center;
+}
+
+@keyframes gradientBackground {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+}
+
+.logo-container {
+    margin-bottom: 30px;
+}
+
+.app-logo {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.intro-text {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.explore-button {
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #3a8dff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #3a8dff;
+    color: #fff;
+}

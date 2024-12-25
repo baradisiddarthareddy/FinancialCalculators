@@ -1,0 +1,51 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar-logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar-links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-links li {
+    margin-left: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-dropdown select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.calculator-link {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.calculator-link a {
+    color: #007bff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.calculator-link a:hover {
+    text-decoration: underline;
+}

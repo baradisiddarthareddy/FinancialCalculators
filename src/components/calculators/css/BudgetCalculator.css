@@ -1,0 +1,64 @@
+/* src/components/calculators/css/BudgetCalculator.css */
+.budget-calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center vertically */
+    flex-direction: column; /* Stack elements vertically */
+    background-color: #f4f4f4; /* Optional: Light background color */
+}
+
+.budget-calculator-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px; /* Spacing between the title and form */
+}
+
+.budget-calculator-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.budget-calculator-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.budget-calculator-form input {
+    padding: 10px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.budget-calculator-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+
+.budget-calculator-form button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
